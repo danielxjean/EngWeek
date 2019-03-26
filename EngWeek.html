@@ -1,13 +1,52 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-<link rel="stylesheet" href="/app.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="EngWeek.css">
+</head>
 
-<div class="flex-container">
+<body>
+    <div class="flex-container">
     <div class="container">
-        <h1>JOIN US</h1>
-        <p class="lead">Enter your email to join <strong><%= count %></strong> others on our waitlist. We are 100% not a cult. </p>
-        <form method="POST" action='/register'>
-            <input type="text" name="email" class="form" placeholder="Enter Your Email">
-            <button>Join Now</button>
-        </form>
+        <header>
+        <nav>
+            <a href="/html/">HTML</a> 
+            <a href="/css/">CSS</a> 
+            <a href="/js/">JavaScript</a> 
+            <a href="/jquery/">jQuery</a>
+        </nav>
+        </header>
+        <h1>Welcome to Nafisa, Joshua, Jacob and Daniel's website</h1>
+        <form>
+            <fieldset class = "firstfieldset">
+                <legend class = "reservation">Registration Information</legend>
+
+                <label class = "red">Name</label>
+                 <input type = "text" name = "name"/><br/><br/>
+
+                 <label class = "red">E-mail</label>
+                 <input type = "text" name = "email"/><br/><br/>
+
+                 <label class = "red">ID</label>
+                 <input type = "text" name = "id"/><br/><br/>
+
+                 <label class = "red">Phone number</label>
+                 <input type = "text" name = "phone"/><br/><br/>
+
+                 <label class = "red">Program</label>
+                 <input type = "text" name = "program"/><br/><br/>
+
+
+      
+
+                    <p class="lead">Enter your email to join <strong><%= count %></strong> others on our waitlist. We are 100% not a cult. </p>
+                    <form method="POST" action='/register'>
+                        <input type="text" name="email" class="form" placeholder="Enter Your Email">
+                        <button>Join Now</button>
+            </fieldset>
+
     </div>
 </div>
+
+</body>
+</html>
