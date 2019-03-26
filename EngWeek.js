@@ -19,6 +19,18 @@ function id() {
         return false;
     }
     else
-         true;    
+         true;
 }
 
+funtion program() {
+
+var program = getElementByName("program").value;
+var patternProgram = /student_list/;
+var result = patternID.test(program);
+if(!result){
+  alert("Not an Engineering Student");
+  return false;
+}
+else
+  true;
+}
