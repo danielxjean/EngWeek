@@ -5,6 +5,8 @@ The point of this competition was to make a system where students enter their in
 
 In order to do the program, We made the outline HTML style so that the user can put their information at the end there was a button where the user clicks and supposedly lets the user register.
 
+We did a CSS file to make the page a little more pleasing to the eye.
+
 There's a JavaScript file where sees if the user is actually indeed a Student. For example: Entering another program than Engineering would not validate and the student would not register.
 
 We were able to transform the Excel sheet into SQL, but we weren't able to connect it to the JavaScript file for the Program function that was made in order to see if the student is an engineer or not.
