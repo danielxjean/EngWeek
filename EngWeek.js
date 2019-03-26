@@ -23,7 +23,6 @@ function id() {
 }
 
 funtion program() {
-
 var program = getElementByName("program").value;
 var patternProgram = /student_list/;
 var result = patternID.test(program);
